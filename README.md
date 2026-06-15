@@ -29,4 +29,12 @@ I'm building AI-powered tools for national security and defense compliance — t
 
 ---
 
-**Stack:** Python · FastAPI · Claude (Anthropic) · SQLAlchemy · NetworkX · PyYAML · Jinja2 · Render
+## Platform Accountability
+
+| Project | What it does | Registry |
+|---|---|---|
+| [Carta](https://github.com/JakPot42/carta) | Open standard + CLI for auditing platform power dynamics. 18 criteria across 6 categories (data portability, deletion rights, terms notice, surveillance, exit costs, accountability). `carta watch` diffs a platform's ToS month-over-month and alerts you to changes. | 3 platforms audited: Mastodon (Platinum, 88.3), GitHub (Gold, 76.8), X/Twitter (Silver, 53.8) |
+
+---
+
+**Stack:** Python · FastAPI · Claude (Anthropic) · SQLAlchemy · NetworkX · PyYAML · Jinja2 · Render · TypeScript · Node.js
