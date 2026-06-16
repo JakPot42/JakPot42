@@ -29,12 +29,13 @@ I'm building AI-powered tools for national security and defense compliance — t
 
 ---
 
-## Platform Accountability
+## Platform Accountability & Collective Intelligence
 
-| Project | What it does | Registry |
+| Project | What it does | Live demo / Registry |
 |---|---|---|
 | [Carta](https://github.com/JakPot42/carta) | Open standard + CLI for auditing platform power dynamics. 18 criteria across 6 categories (data portability, deletion rights, terms notice, surveillance, exit costs, accountability). `carta watch` diffs a platform's ToS month-over-month and alerts you to changes. | 3 platforms audited: Mastodon (Platinum, 88.3), GitHub (Gold, 76.8), X/Twitter (Silver, 53.8) |
+| [Agora](https://github.com/JakPot42/agora) | Collective deliberation platform — people submit beliefs, values, needs, and proposals; three Claude agents (Synthesizer, Devil's Advocate, Bridge Builder) synthesize them into a live D3 force graph of agreements, tensions, and bridges. Click a tension to open the Bridge Builder's analysis of what each side is actually protecting and a concrete move that honors both. | [agora-oaje.onrender.com](https://agora-oaje.onrender.com) |
 
 ---
 
-**Stack:** Python · FastAPI · Claude (Anthropic) · SQLAlchemy · NetworkX · PyYAML · Jinja2 · Render · TypeScript · Node.js
+**Stack:** Python · FastAPI · Claude (Anthropic) · SQLAlchemy · NetworkX · PyYAML · Jinja2 · Render · TypeScript · Next.js · Drizzle ORM · D3.js
