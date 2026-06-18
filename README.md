@@ -29,6 +29,14 @@ I'm building AI-powered tools for national security and defense compliance — t
 
 ---
 
+## Formal Verification
+
+| Project | What it does |
+|---|---|
+| [z3-contract](https://github.com/JakPot42/z3-contract) | CLI tool that encodes contract term sheets as Z3 SMT constraints and reports logical contradictions — names the specific conflicting clauses if unsatisfiable. Catches both boolean contradictions (automatic vesting acceleration + board veto requiring prior approval) and arithmetic ones (liquidation preference floors that together exceed exit proceeds). |
+
+---
+
 ## Platform Accountability & Collective Intelligence
 
 | Project | What it does | Live demo / Registry |
@@ -38,4 +46,4 @@ I'm building AI-powered tools for national security and defense compliance — t
 
 ---
 
-**Stack:** Python · FastAPI · Claude (Anthropic) · SQLAlchemy · NetworkX · PyYAML · Jinja2 · Render · TypeScript · Next.js · Drizzle ORM · D3.js
+**Stack:** Python · FastAPI · Claude (Anthropic) · SQLAlchemy · NetworkX · PyYAML · Jinja2 · Render · TypeScript · Next.js · Drizzle ORM · D3.js · Z3
