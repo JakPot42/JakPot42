@@ -49,6 +49,16 @@ I'm building AI-powered tools for national security and defense — the kind of 
 
 ---
 
+## Space & Advanced Propulsion
+
+| Project | What it does | Demo |
+|---|---|---|
+| [Orbital Sentinel](https://github.com/JakPot42/orbital-sentinel) | Space domain awareness — sgp4 propagation + Space-Track CDM ingestion + 3D Plotly orbital visualization. Flags satellite conjunction risk (Pc thresholds) and generates 5-section SDA intelligence briefs. | [orbital-sentinel-65cj.onrender.com](https://orbital-sentinel-65cj.onrender.com) |
+| [TLE Propagator](https://github.com/JakPot42/tle-propagator) | From-scratch Rust SGP4 secular propagator — J2 nodal regression, B* drag, Newton-Raphson Kepler solver, TEME→ECEF coordinate chain. Library + CLI. 30 tests. | CLI — Rust |
+| [LumenGrid Mission Calculator](https://github.com/JakPot42/lumengrid) | Live physics calculator comparing beamed-thermal vs chemical propulsion across four missions (LEO→GEO, Moon, Mars, Europa). Tsiolkovsky rocket equation, Rayleigh beam divergence, light-sail thrust (F = 2P/c), Hohmann transit times. Isp mass curve chart. | [jakpot42.github.io/lumengrid](https://jakpot42.github.io/lumengrid) *(GitHub Pages)* |
+
+---
+
 ## Supply Chain & Foreign Investment Risk
 
 | Project | What it does | Demo |
@@ -90,6 +100,6 @@ I'm building AI-powered tools for national security and defense — the kind of 
 
 ---
 
-**Stack:** Python · FastAPI · Claude (Anthropic) · Click · Rich · SQLAlchemy · pandas · numpy · NetworkX · ChromaDB · Z3 · Jinja2 · Render · TypeScript · Next.js · D3.js
+**Stack:** Python · FastAPI · Claude (Anthropic) · Click · Rich · SQLAlchemy · pandas · numpy · NetworkX · ChromaDB · Z3 · Jinja2 · Render · TypeScript · React · Next.js · D3.js · Chart.js · Rust
 
 **Approach:** Claude extracts and synthesizes; deterministic Python rules make every decision. No LLM randomness in compliance, scoring, or attribution paths.
