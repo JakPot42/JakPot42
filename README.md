@@ -12,6 +12,16 @@ I'm building AI-powered tools for national security and defense — the kind of 
 
 ---
 
+## The Capstone
+
+[![Glassbox](https://img.shields.io/badge/glassbox-auditable%20human--in--the--loop%20AI-2563EB?style=for-the-badge)](https://github.com/JakPot42/glassbox)
+
+**[Glassbox](https://github.com/JakPot42/glassbox)** — Every project below independently reinvented the same four disciplines: an LLM proposes, deterministic code decides, a human confirms before anything consequential happens, and the system's own limitations get disclosed, not hidden. Glassbox is what's left after distilling that pattern out of 70+ separate builds: an importable Python library for all four pieces, a machine-checkable specification (`glassbox-spec.json`) defining exactly what "glassbox" means, and a conformance checker that statically analyzes a real codebase against that spec — never imports or executes it, just proves the guarantees hold.
+
+It's tested against itself honestly, not just demoed. Run for real against four unmodified sibling projects in this portfolio, it scores each 56–68/100 — never a rigged 100, because none of them were built against this spec. And one piece of the library (bounded repair/retry on failed structured extraction) is disclosed as genuinely new: a portfolio-wide search found no project that re-prompts Claude on a bad response — every one just fails loud. That gap, and the real file/line citations for everything else, are documented in [`docs/REFERENCE_IMPLEMENTATIONS.md`](https://github.com/JakPot42/glassbox/blob/master/docs/REFERENCE_IMPLEMENTATIONS.md).
+
+---
+
 ## Defense Acquisition & Contracting
 
 | Project | What it does | Demo |
