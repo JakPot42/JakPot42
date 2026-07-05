@@ -29,10 +29,10 @@ It's tested against itself honestly, not just demoed. Run for real against four 
 | [SEAD 3 Auditor](https://github.com/JakPot42/sead3-auditor) | Parses cleared-employee disclosures, computes SEAD 3 reporting deadlines, generates FSO compliance briefs and DISS export files | [sead3-auditor.onrender.com](https://sead3-auditor.onrender.com) |
 | [SAM Acquisition Agent](https://github.com/JakPot42/sam-acquisition-agent) | Monitors SAM.gov for relevant solicitations, reads RFPs, and drafts compliance matrices and capability statements | [sam-acquisition-agent.onrender.com](https://sam-acquisition-agent.onrender.com) |
 | [ATO Accelerator](https://github.com/JakPot42/ato-accelerator) | Categorizes systems under FIPS 199, maps them to NIST 800-53 baselines, and drafts System Security Plan narratives control by control | [ato-accelerator.onrender.com](https://ato-accelerator.onrender.com) |
-| [CFIUS Screener](https://github.com/JakPot42/cfius-screener) | Screens foreign-investment transactions for CFIUS jurisdiction and mandatory-declaration triggers under 31 CFR Part 800 — every determination cites the specific regulation | [cfius-screener.onrender.com](https://cfius-screener.onrender.com) |
+| [CFIUS Screener](https://github.com/JakPot42/cfius-screener) | Screens foreign-investment transactions for CFIUS jurisdiction and mandatory-declaration triggers under 31 CFR Part 800 — every determination cites the specific regulation | Merged into [Arbor](https://arbor-vpa1.onrender.com) |
 | [Security Clearance Advisor](https://github.com/JakPot42/clearance-advisor) | Evaluates clearance eligibility against all 13 SEAD 4 adjudicative criteria with whole-person analysis and mitigating/aggravating factors from the Adjudicative Desk Reference | [clearance-advisor.onrender.com](https://clearance-advisor.onrender.com) |
 | [Defense Budget Tracker](https://github.com/JakPot42/defense-budget-tracker) | Tracks DoD RDT&E / Procurement / O&M funding for AI/ML, Hypersonics, Space, and Cyber across FY2022–2026; CAGR trend analysis; NDAA provisions; USASpending.gov + congress.gov APIs | CLI — 204 tests |
-| [Pre-Acquisition Intelligence Brief](https://github.com/JakPot42/acquisition-brief) | Generates a pre-deal intelligence brief from USPTO, CourtListener, SEC EDGAR, and SAM.gov — IP strength, litigation risk, regulatory exposure, contract dependency | CLI — 221 tests |
+| [Pre-Acquisition Intelligence Brief](https://github.com/JakPot42/acquisition-brief) | Generates a pre-deal intelligence brief from USPTO, CourtListener, SEC EDGAR, and SAM.gov — IP strength, litigation risk, regulatory exposure, contract dependency | Live in [Arbor](https://arbor-vpa1.onrender.com) |
 
 ---
 
@@ -74,8 +74,9 @@ It's tested against itself honestly, not just demoed. Run for real against four 
 | Project | What it does | Demo |
 |---|---|---|
 | [FriendShore](https://github.com/JakPot42/friendshore-supply-chain) | BOM → Tier 1-3 supply chain graph, adversary-nation single points of failure, OFAC SDN screening, allied alternatives | [friendshore-supply-chain.onrender.com](https://friendshore-supply-chain.onrender.com) |
-| [GhostTrace](https://github.com/JakPot42/ghosttrace) | EDGAR beneficial ownership extraction with entity resolution, ChromaDB semantic search, OFAC screening, agentic deep-trace loop (5 tool calls) | [ghosttrace-aose.onrender.com](https://ghosttrace-aose.onrender.com) |
-| [DIB Monitor](https://github.com/JakPot42/dib-monitor) | SEC 10-K Claude extraction + Monte Carlo GBM distress simulation (P(distress) at 1/2/3 years) + 13F foreign ownership screening | [dib-monitor.onrender.com](https://dib-monitor.onrender.com) |
+| [GhostTrace](https://github.com/JakPot42/ghosttrace) | EDGAR beneficial ownership extraction with entity resolution, ChromaDB semantic search, OFAC screening, agentic deep-trace loop (5 tool calls) | Merged into [Arbor](https://arbor-vpa1.onrender.com) |
+| [DIB Monitor](https://github.com/JakPot42/dib-monitor) | SEC 10-K Claude extraction + Monte Carlo GBM distress simulation (P(distress) at 1/2/3 years) + 13F foreign ownership screening | Merged into [Arbor](https://arbor-vpa1.onrender.com) |
+| [Debt Exposure Monitor](https://github.com/JakPot42/debt-exposure-monitor) | Tracks lender identity behind a defense supplier's credit facilities and bond issuances — OFAC/BIS screening plus a curated foreign state-connected lender list neither equity nor physical supply chain data would surface | Live in [Arbor](https://arbor-vpa1.onrender.com) |
 | [Critical Mineral Monitor](https://github.com/JakPot42/critical-mineral-monitor) | DoD-critical mineral supply chain exposure — production concentration, US import dependency, strategic reserve analysis | [critical-mineral-monitor.onrender.com](https://critical-mineral-monitor.onrender.com) |
 
 ---
