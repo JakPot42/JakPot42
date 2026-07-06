@@ -43,7 +43,7 @@ It's tested against itself honestly, not just demoed. Run for real against four 
 | [SENTINEL](https://github.com/JakPot42/sentinel-io-engine) | Detects coordinated influence operations by clustering adversary narratives and classifying TTPs against the DISARM framework — [live demo](https://sentinel-io-engine.onrender.com) |
 | [Dragonbridge Analyzer](https://github.com/JakPot42/dragonbridge-analyzer) | Scores content samples against 12 behavioral fingerprints from public Meta ATR, Google/Mandiant, and Stanford SIO Dragonbridge/Spamouflage takedown reports. Deterministic. Non-attribution framing enforced throughout. 230 tests. |
 | [IP Theft Pattern Database](https://github.com/JakPot42/ip-theft-db) | Pattern database of documented intellectual property theft operations; scores a scenario against methods from public DoJ indictments and NCSC/FBI advisories. 443 tests. |
-| [Volt Typhoon Exposure Assessor](https://github.com/JakPot42/volt-typhoon) | Scores an OT/IT environment against documented Volt Typhoon TTPs — living-off-the-land binaries, SOHO router pivoting — from the CISA/NSA/FBI February 2024 joint advisory. 129 tests. |
+| [Infrastructure Exposure Assessor](https://github.com/JakPot42/infra-exposure-assessor) | Scores an OT/IT environment against documented Volt Typhoon TTPs — living-off-the-land binaries, SOHO router pivoting — from the CISA/NSA/FBI February 2024 joint advisory. 129 tests. |
 | [OSINT Brief Generator](https://github.com/JakPot42/osint-brief) | Compiles an ICD 203-formatted intelligence brief for any named entity from open sources, with confidence levels and source citations |
 
 ---
