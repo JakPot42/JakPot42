@@ -1,6 +1,6 @@
 # JakPot42
 
-I'm building AI-powered tools for national security and defense — the kind of work that used to take analysts days and now takes minutes. **50 projects in 16 days.** My focus is on problems that are real, funded, and underserved by existing software: program funding analysis, acquisition intelligence, supply chain risk, ATO documentation, influence operation detection, beneficial ownership tracing, foreign investment screening, and critical infrastructure resilience. Every project is deployed, live, and demo-ready.
+I'm building AI-powered tools for national security and defense — the kind of work that used to take analysts days and now takes minutes. **81 projects in about five weeks.** My focus is on problems that are real, funded, and underserved by existing software: program funding analysis, acquisition intelligence, supply chain risk, ATO documentation, influence operation detection, beneficial ownership tracing, foreign investment screening, and critical infrastructure resilience. Every project is deployed, live, and demo-ready.
 
 ---
 
