@@ -12,14 +12,12 @@ I design these projects and direct their build. The code is written with Claude 
 
 ## Projects
 
-| Project | What it is | Status |
-|---|---|---|
-| [asof-gate](https://github.com/JakPot42/asof-gate) | A check that runs after an AI intake step proposes the facts of a SNAP case and before the benefit is computed. It stops the case when a fact does not trace to the household's own documents, or a legal figure is not the one in force on the decision date. A second example applies the same check to a tax return. | **Demonstration.** Six SNAP cases on four synthetic households. The intake step is a fixture written by hand, not a model. A second implementation recomputes every verdict. |
-| [redtape](https://github.com/JakPot42/redtape) | Evaluation environments for US public-benefits work, published on the [Prime Intellect Environments Hub](https://app.primeintellect.ai/dashboard/environments/jakpotvin/redtape). They score whether a model knows which facts a question needs and when it cannot answer from the facts it was given. | **Published, with its headline result retracted.** The retraction is the first thing in the README. Three models have been run on the corrected tasks. |
-| [snap-qc-analysis](https://github.com/JakPot42/snap-qc-analysis) | An analysis of USDA's public SNAP quality-control data. What share of payment error dollars could a deterministic check catch? In the FY 2024 file, 15 to 36 percent, almost all of it from checking facts and very little from checking rules. | **Finished analysis.** The plan carries an independent timestamp. The README separates what that timestamp proves from what rests on my word. |
-| [logchain](https://github.com/JakPot42/logchain) | A log journal in Rust in which a later edit to any entry is detectable. A second verifier, written in Python from the format specification, shares no code with it. | **Working command-line tool, format version 2.** Version 1 had a root collision, found while writing the format specification. Its roots are void. |
-| [sentinel-ledger](https://github.com/JakPot42/sentinel-ledger) | A recorder for a machine's command path. It signs a record of each command, and a gate on the actuator's side passes a command only if it arrives inside a signed record. Includes a witness and an independent verifier. | **First build, on a simulated machine.** Not certified and not a safety system. The README lists its limits before any result. |
-| [filing-check](https://github.com/JakPot42/filing-check) | Compares NHTSA vehicle-incident filings with independent public records and reports where two documents about the same event differ. It never states or implies a verdict about a company. | **Working tool, run on public data.** Every link it makes between two records is low confidence, and the README says why. |
+- [asof-gate](https://github.com/JakPot42/asof-gate) (demonstration): stops a SNAP case or a tax return when a fact does not trace to its documents or a legal figure is not in force.
+- [redtape](https://github.com/JakPot42/redtape) (published, headline result retracted): evaluation environments that score whether a model knows when it cannot answer a benefits question from the facts it was given.
+- [snap-qc-analysis](https://github.com/JakPot42/snap-qc-analysis) (finished analysis): in USDA's FY 2024 SNAP quality-control file, 15 to 36 percent of payment error dollars are errors such a check could catch in principle.
+- [logchain](https://github.com/JakPot42/logchain) (working tool): a log journal in Rust in which a later edit to any entry is detectable.
+- [sentinel-ledger](https://github.com/JakPot42/sentinel-ledger) (first build on a simulated machine; not a safety system): signs a record of each machine command, and the actuator's gate passes only commands inside a signed record.
+- [filing-check](https://github.com/JakPot42/filing-check) (working tool, on public data): reports where NHTSA vehicle-incident filings and independent public records about the same event differ, never a verdict about a company.
 
 Each repository states its licence.
 
