@@ -8,7 +8,7 @@ The pattern on [my profile page](https://github.com/JakPot42) was distilled from
 
 [![Awesome Defense Tech](https://img.shields.io/badge/awesome--defense--tech-curated%20resource%20list-blue?style=for-the-badge)](https://github.com/JakPot42/awesome-defense-tech)
 
-**[awesome-defense-tech](https://github.com/JakPot42/awesome-defense-tech)**: a curated list of public APIs, open standards, policy documents and worked examples for building national-security and defense-adjacent software. 35+ free APIs (CISA KEV, USASpending.gov, Space-Track, USGS, EIA, WHO DON, congress.gov, CourtListener, SEC EDGAR, and more), 30+ frameworks (MITRE ATT&CK, DISARM, NIST AI RMF, DoD AI Ethical Principles, CNSA 2.0, NIST PQC, CMMC, Purdue Model, ICD 203), and 49 worked examples. If you're building in this space, it is a place to start.
+**[awesome-defense-tech](https://github.com/JakPot42/awesome-defense-tech)**: a curated list of public APIs, open standards, policy documents and worked examples for building national-security and defense-adjacent software. 35+ free APIs (CISA KEV, USASpending.gov, Space-Track, USGS, EIA, WHO DON, congress.gov, CourtListener, SEC EDGAR, and more), 30+ frameworks (MITRE ATT&CK, DISARM, NIST AI RMF, DoD AI Ethical Principles, CNSA 2.0, NIST PQC, CMMC, Purdue Model, ICD 203), and 46 worked examples. If you're building in this space, it is a place to start.
 
 ---
 
@@ -32,7 +32,6 @@ The pattern on [my profile page](https://github.com/JakPot42) was distilled from
 |---|---|
 | [SENTINEL](https://github.com/JakPot42/sentinel-io-engine) | Detects coordinated influence operations by clustering adversary narratives and classifying TTPs against the DISARM framework. Merged into [Analyst's Desk](https://analysts-desk.onrender.com/sentinel/) |
 | [Dragonbridge Analyzer](https://github.com/JakPot42/dragonbridge-analyzer) | Scores a set of social-media accounts against 12 behavioral indicators drawn from published takedown reports on the Dragonbridge/Spamouflage network. Deterministic. It makes no attribution claim about any real account or person. |
-| [IP Theft Pattern Database](https://github.com/JakPot42/ip-theft-db) | A queryable database of 20 documented economic espionage and trade secret theft cases, drawn from public DOJ press releases and federal court records. It documents prosecuted cases and is not predictive. |
 | [Infrastructure Exposure Assessor](https://github.com/JakPot42/infra-exposure-assessor) | Scores an OT/IT environment against documented Volt Typhoon TTPs (living-off-the-land binaries, SOHO router pivoting) from CISA advisories AA23-144A and AA24-038A. |
 | [OSINT Brief Generator](https://github.com/JakPot42/osint-brief) | Runs a bounded search loop across five public sources for a company, technology or topic, then writes a SITREP-style brief with a HIGH, MEDIUM or LOW confidence rating on each finding |
 
@@ -63,7 +62,7 @@ The pattern on [my profile page](https://github.com/JakPot42) was distilled from
 
 | Project | What it does | Demo |
 |---|---|---|
-| [FriendShore](https://github.com/JakPot42/friendshore-supply-chain) | BOM → Tier 1-3 supply chain graph, adversary-nation single points of failure, allied alternatives | Merged into [Analyst's Desk](https://analysts-desk.onrender.com/friendshore/) |
+| FriendShore | BOM → Tier 1-3 supply chain graph, adversary-nation single points of failure, allied alternatives | Merged into [Analyst's Desk](https://analysts-desk.onrender.com/friendshore/) |
 | [GhostTrace](https://github.com/JakPot42/ghosttrace) | EDGAR beneficial ownership extraction with entity resolution, ChromaDB semantic search, OFAC screening, agentic deep-trace loop (5 tool calls) | Merged into [Arbor](https://arbor-vpa1.onrender.com) |
 | [DIB Monitor](https://github.com/JakPot42/dib-monitor) | SEC 10-K Claude extraction + Monte Carlo GBM distress simulation (P(distress) at 1/2/3 years) + 13F foreign ownership screening | Merged into [Arbor](https://arbor-vpa1.onrender.com) |
 | [Debt Exposure Monitor](https://github.com/JakPot42/debt-exposure-monitor) | Tracks lender identity behind a defense supplier's credit facilities and bond issuances: OFAC/BIS screening plus a curated foreign state-connected lender list neither equity nor physical supply chain data would surface | Live in [Arbor](https://arbor-vpa1.onrender.com) |
@@ -87,7 +86,6 @@ The pattern on [my profile page](https://github.com/JakPot42) was distilled from
 |---|---|
 | [Regulatory Velocity Tracker](https://github.com/JakPot42/regulatory-velocity) | Z-score on monthly Federal Register publication counts for a regulatory domain, such as CMMC, ITAR, DFARS, BIS export controls or SEAD. Flags a domain whose recent activity is unusually high against its own baseline. |
 | [Rulemaking Comment Analyzer](https://github.com/JakPot42/comment-analyzer) | Pulls the public comments on a Regulations.gov docket, uses Claude to classify each by theme, stakeholder type and argument, clusters them deterministically, and drafts a structured decision memo. Demo: a real CMMC rulemaking docket. |
-| [Civic RAG](https://github.com/JakPot42/civic-rag) | Retrieval-augmented generation over a town's council, school committee and planning board minutes (Tiverton, RI); every answer cites the meeting it came from | [civic-rag.onrender.com](https://civic-rag.onrender.com) |
 
 ---
 
